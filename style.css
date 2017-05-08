@@ -638,10 +638,12 @@ a:focus{
 		box-shadow: inset -1px -1px 144px -44px rgba(0,0,0,0.75);
 	}
 	
-	#disqus_thread{
-		padding:40px;
-	}
-	
+	#Comment_wrap{
+		width:840px;
+		margin-left:auto;
+		margin-right:auto;
+		padding:20px;
+		}
 	.triangle1 {
 		margin-right:auto;
 		margin-left:auto;
