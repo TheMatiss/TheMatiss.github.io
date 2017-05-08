@@ -247,6 +247,7 @@ a:focus{
 		height:55px;
 		width:50px;
 		margin-right:5px;
+		vertical-align:middle;
 	}
 	
 	.icon {
@@ -666,14 +667,17 @@ a:focus{
 		width:840px;
 	}
 	
-	.header  span{
+	h1{
 		width:840px;
+		margin-top:0;
+		margin-bottom:0;
 		text-align: center;
 		font-family: 'Open Sans Condensed', sans-serif;
 		color:white;
 		top:70%;
 		text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 		letter-spacing: 1.4px;
+		font-weight:300;
 		font-size: 42px;
 		display:block;
 		position:relative;
@@ -724,14 +728,15 @@ a:focus{
 		margin-bottom:35px;
 	}
 	
-	.zakonczenie {
-		
+	h2{
+		font-weight:300;
 		font-family: 'Open Sans Condensed', sans-serif;
 		color:black;
 		font-size: 16.8px;
 		letter-spacing:1px;
 		position:relative;
 		margin-top:49px;
+		margin-bottom:0;
 	}
 	
 	.leftone {
@@ -744,7 +749,7 @@ a:focus{
 		
 	}
 	
-	.rowniez{
+	h3{
 		text-align:center;
 		font-family: 'Open Sans Condensed', sans-serif;
 		color:black;
@@ -752,6 +757,7 @@ a:focus{
 		letter-spacing:1px;
 		position:relative;
 		margin-top:63px;
+		margin-bottom:0;
 		font-weight:700;
 	}
 
@@ -1464,8 +1470,10 @@ a:focus{
 		width:1200px;
 	}
 	
-	.header  span{
+	h1{
 		width:1200px;
+		margin-top:0;
+		margin-bottom:0;
 		text-align: center;
 		font-family: 'Open Sans Condensed', sans-serif;
 		color:white;
@@ -1474,6 +1482,7 @@ a:focus{
 		letter-spacing: 2px;
 		font-size: 60px;
 		display:block;
+		font-weight:300;
 		position:relative;
 		-webkit-box-shadow: 4px 4px 206px 8px rgba(0,0,0,0.75);
 		-moz-box-shadow: 6px 4px 206px -3px rgba(0,0,0,0.75);
@@ -1522,8 +1531,9 @@ a:focus{
 		margin-bottom:50px;
 	}
 	
-	.zakonczenie {
-		
+	h2 {
+		font-weight:300;
+		margin-bottom:0;
 		font-family: 'Open Sans Condensed', sans-serif;
 		color:black;
 		font-size: 24px;
@@ -1542,7 +1552,7 @@ a:focus{
 		
 	}
 	
-	.rowniez{
+	h3{
 		text-align:center;
 		font-family: 'Open Sans Condensed', sans-serif;
 		color:black;
@@ -1550,6 +1560,7 @@ a:focus{
 		letter-spacing:1px;
 		position:relative;
 		margin-top:90px;
+		margin-bottom:0;
 		font-weight:700;
 	}
 

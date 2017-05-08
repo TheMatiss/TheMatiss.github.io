@@ -4,22 +4,12 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>MateuszKrawczyk.pl</title>
-		<link rel="stylesheet" href="style.css" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&amp;subset=latin-ext" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&amp;subset=latin-ext" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans+Condensed:300&amp;subset=latin-ext" rel="stylesheet">
 		<meta name="description" content="Usługi informatyczne i rowerowe - Mateusz Krawczyk">
 		<meta name="keywords" content="Strona, Mateusz, Krawczyk, Usługi, informatyczne, rowerowe">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" href="images/logo.png">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-		<script type="text/javascript">
-			
-	$(document).ready(function(){
-    $(".mirko").click(function(){
-        $("#toggle").toggle(240);
-    });
-});
-		</script>
 		
 		<style type="text/css">
 		.dur1 {
@@ -31,8 +21,8 @@
 		@media (min-width: 1440px) {
 		.dur1 { width:222px;
 		margin-right: 0px;
-		cursor:pointer;}
-		}</style>
+		cursor:pointer;}}
+		</style>
 		
 	</head>
 
@@ -60,6 +50,7 @@
 			
 			</div>
 			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 			<div id="particles">
 			<div id="particles-js"></div>
 			<script src="js/particles.js"></script>
@@ -69,7 +60,7 @@
 				<div id="back">
 				<div id="mailmk">
 				<div id="opa">
-				<a href="mailto:mateuszkrawczyk0510@gmail.com"> <img src="images/mail.png" align="center" class="mail" alt="Koperta"/>  mateuszkrawczyk0510@gmail.com </a>
+				<a href="mailto:mateuszkrawczyk0510@gmail.com"> <img src="images/mail.png" class="mail" alt="Koperta"/>  mateuszkrawczyk0510@gmail.com </a>
 				</div></div>
 		
 				
@@ -78,14 +69,21 @@
 				
 				<div class="circle"><a href="https://twitter.com/TheMatiss_"><img src="images/twitter.png" class="icon" alt="Logo Twittera"/></a></div>
 				
-				<div class="circle"><input type=image name=img src="images/wykop.png" class="mirko" alt="Logo Wykopu" onclick="showDiv('toggle')"></input></div>
+				<div class="circle"><input type=image name=img src="images/wykop.png" class="mirko" alt="Logo Wykopu" onclick="showDiv('toggle')"/></div>
 				</div>
 				</div>
 				<div style="clear:both"></div>
 		</div>
 		</div>
 			
-		
+		<script type="text/javascript">
+			
+				$(document).ready(function(){
+				$(".mirko").click(function(){
+					$("#toggle").toggle(240);
+				});
+			});
+		</script>
 
 			
 	</body>
