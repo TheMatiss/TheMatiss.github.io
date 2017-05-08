@@ -639,10 +639,7 @@ a:focus{
 	}
 	
 	#disqus_thread{
-		width: 840px;
-		margin-left:auto;
-		margin-right:auto;
-		
+		padding:40px;
 	}
 	
 	.triangle1 {
