@@ -350,7 +350,6 @@ a:focus{
 		position:fixed;
 		margin-right: auto;
 		margin-left:auto;
-		width:950px;	
 		bottom: 0;
 		right:0;
 		left:0;
@@ -385,7 +384,6 @@ a:focus{
 		margin-top:-38px;
 		margin-right: auto;
 		margin-left:auto;
-		width:950px;
 		right:0;
 		left:0;
 		text-align: center;
@@ -640,6 +638,12 @@ a:focus{
 		box-shadow: inset -1px -1px 144px -44px rgba(0,0,0,0.75);
 	}
 	
+	#disqus_thread{
+		width: 840px;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
 	
 	.triangle1 {
 		margin-right:auto;
@@ -1172,7 +1176,6 @@ a:focus{
 		position:fixed;
 		margin-right: auto;
 		margin-left:auto;
-		width:950px;	
 		bottom: 0;
 		right:0;
 		left:0;
@@ -1205,7 +1208,6 @@ a:focus{
 		margin-top:-42px;
 		margin-right: auto;
 		margin-left:auto;
-		width:950px;
 		right:0;
 		left:0;
 		text-align: center;
