@@ -684,6 +684,8 @@ a:focus{
 		-webkit-box-shadow: 3px 3px 150px 8px rgba(0,0,0,0.75);
 		-moz-box-shadow: 6px 4px 1506px -3px rgba(0,0,0,0.75);
 		box-shadow: 6px 4px 150px -3px rgba(0,0,0,0.75);
+		-webkit-margin-before:0em;
+		-webkit-margin-after:0em;
 	}
 	
 	.szablontekst{
