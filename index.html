@@ -10,7 +10,7 @@
 		<meta name="keywords" content="Strona, Mateusz, Krawczyk, Usługi, informatyczne, rowerowe">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" href="images/logo.png">
-		
+		<link rel="stylesheet" href="animate.min.css">
 		<style type="text/css">
 		.dur1 {
 		width:175px;
@@ -31,23 +31,28 @@
 		<div id="longer">
 		<div id="main">
 			<div id="menu">
-				<div class="nav1"><div class="dur1"><a href="index.html">
+				<nav>
+					<ul>
+						<li class="nav1"><div class="dur1"><a href="index.html">
 					KONTAKT
-				</a></div></div>
-				<div class="nav2"><div class="dur2"><a href="omnie.html">
-					<span style="letter-spacing: 9px">O</span>MNIE</a>
-				</div></div>
-				<div id="toggle">( ͡° ͜ʖ ͡°)</div>
-				<div class="nav3"><a href="index.html">
-					<img src="images/logo.svg" class="logo" alt="Logo Korony"/>
-				</a></div>
-				<div class="nav4"><div class="dur3"><a href="projekty.html">
+							</a></div></li>
+						<li class="nav2"><div class="dur2"><a href="omnie.html">
+					<span style="letter-spacing: 9px">O</span>MNIE
+							</a></div></li>
+							<div id="toggle">( ͡° ͜ʖ ͡°)</div>
+						<li class="nav3"><a href="index.html">
+							<img src="images/logo.svg" class="logo" alt="Obrazek Korony"/>
+							</a></li>
+						<li class="nav4"><div class="dur3"><a href="projekty.html">
 					PROJEKTY
-				</a></div></div>
-				<div class="nav5"><div class="dur4"><a href="blog.html">
+							</a></div></li>
+						<li class="nav5"><div class="dur4"><a href="blog.html">
 					BLOG
-				</a></div></div>
-			
+							</a></div></li>
+					</ul>
+				</nav>	
+				
+
 			</div>
 			
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -57,24 +62,27 @@
 			<script src="js/app.js"></script>
 			</div>
 		
+		
+		
 				<div id="back">
 				<div id="mailmk">
 				<div id="opa">
-				<a href="mailto:mateuszkrawczyk0510@gmail.com"> <img src="images/mail.png" class="mail" alt="Koperta"/>  mateuszkrawczyk0510@gmail.com </a>
+				<div class="animated bounceInDown">
+				<a href="mailto:mateuszkrawczyk0510@gmail.com"> <img src="images/mail.png" class="mail" alt="Koperta"/>  mateuszkrawczyk0510@gmail.com </a></div>
 				</div></div>
 		
 				
 				<div id="icons">
-				<div class="circle"><a href="https://www.facebook.com/MateuszKrawczyk.666"><img src="images/fb-art.png" class="icon" alt="Logo Facebooka"/> </a></div>
+				<div class="circle"><a href="https://www.facebook.com/MateuszKrawczyk.666"><div class="animated rotateInDownLeft"><img src="images/fb-art.png" class="icon" alt="Logo Facebooka"/> </div></a></div>
 				
-				<div class="circle"><a href="https://twitter.com/TheMatiss_"><img src="images/twitter.png" class="icon" alt="Logo Twittera"/></a></div>
+				<div class="circle"><a href="https://twitter.com/TheMatiss_"><div class="animated fadeInDown"><img src="images/twitter.png" class="icon" alt="Logo Twittera"/></div></a></div>
 				
-				<div class="circle"><input type=image name=img src="images/wykop.png" class="mirko" alt="Logo Wykopu" onclick="showDiv('toggle')"/></div>
+				<div class="circle"><div class="animated rotateInDownRight"><input type=image name=img src="images/wykop.png" class="mirko" alt="Logo Wykopu" onclick="showDiv('toggle')"/></div></div>
 				</div>
 				</div>
-				<div style="clear:both"></div>
 		</div>
 		</div>
+	
 			
 		<script type="text/javascript">
 			

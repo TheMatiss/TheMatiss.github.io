@@ -10,6 +10,7 @@
 		<meta name="keywords" content="Strona, Mateusz, Krawczyk, Usługi, informatyczne, rowerowe">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" href="images/logo.png">
+		<link rel="stylesheet" href="animate.min.css">
 		<script type="text/javascript">
 			function showDiv(toggle){
 			document.getElementById(toggle).style.display = 'block';
@@ -39,43 +40,133 @@
 		<div id="longer">
 		<div id="main">
 			<div id="menu">
-				<div class="nav1"><div class="dur1"><a href="index.html">
+				<nav>
+					<ul>
+						<li class="nav1"><div class="dur1"><a href="index.html">
 					KONTAKT
-				</a></div></div>
-				<div class="nav2"><div class="dur2"><a href="omnie.html">
+							</a></div></li>
+						<li class="nav2"><div class="dur2"><a href="omnie.html">
 					<span style="letter-spacing: 9px">O</span>MNIE
-				</a></div></div>
-				<div class="nav3"><a href="index.html">
-					<img src="images/logo.svg" class="logo" alt="Logo Korony"/>
-				</a></div>
-				<div class="nav4"><div class="dur3"><a href="projekty.html">
+							</a></div></li>
+						<li class="nav3"><a href="index.html">
+							<img src="images/logo.svg" class="logo" alt="Obrazek Korony">
+							</a></li>
+						<li class="nav4"><div class="dur3"><a href="projekty.html">
 					PROJEKTY
-				</a></div></div>
-				<div class="nav5"><div class="dur4"><a href="blog.html">
+							</a></div></li>
+						<li class="nav5"><div class="dur4"><a href="blog.html">
 					BLOG
-				</a></div></div>
+							</a></div></li>
+					</ul>
+				</nav>	
+			
 			
 			</div>
 	
-				
-				<div style="clear:both"></div>
 		</div>
+		</div>
+		<a href="#html" class="scrollup"></a>
+		<div class="animated fadeInUp">
+		<div class="part1">
+		<img src="images/mateusz.png" class="zdjecie" alt="młody mężczyzna w czerwonej koszulce"/>
+		<div class="triangle3"></div><div class="tlo">
+		<div class="tekstright">Jestem from-end developerem. Specjalizuję się w tworzeniu nowoczesnych stron internetowych. Języków zacząłem uczyć się w szkole, jednak dopiero nauka na własną rękę przyniosła zadowalające rezultaty i tak naprawdę stanowi ona 90% tego co umiem. Korzystam z metody <a class="se" href="https://www.youtube.com/watch?v=OAywuL0tSLA">'slight-edge'</a> czyli codziennym, systematycznym rozwijaniu swojej wiedzy.</div></div><div class="triangle4"></div>
+		</div>
+		<div class="animated fadeIn infinite"><a href="#try" class="scrolldown"></a></div></div>
+		<div id="try"></div>
+		<div class="part2">
+		<div class="title">Wykorzystuję</div>
+		<ul class="second">
+			<li class="ex"><img src="images/html.svg" class="lang" alt=""><div class="tst">HTML5</div></li>
+			<li class="ex"><img src="images/css3.svg" class="lang" alt=""><div class="tst">CSS3</div></li>
+			<li class="ex"><img src="images/js.svg" class="lang" alt=""><div class="tst">JavaScript</div></li>
+			<li class="ex"><img src="images/rwd2.png" class="lang" alt=""><div class="tst" title="Responsive Web Design">RWD</div></li>
+		</ul>
 		</div>
 		
-		<div id="box">
-			<div id="right">
-					<div id="opis">
-					Gdybyś spytał jakiej muzyki słucham, pokazałbym Ci tę playliste
-					</div>
-				<div id="spotify">
-				<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Athematiss%3Aplaylist%3A43owDb0ClaraIZK1DtACSE" width="200" height="290" frameborder="0" allowtransparency="true"></iframe></div>
-			</div>
+		<div class="part3">
+		<div class="title">Sposób działania</div>
+		<ul class="second">
+			<li class="ax"><img src="images/1.png" class="lang2" alt=""><div class="tt">Analiza</div><div class="infot">Analiza tematyki strony, zebranie najważniejszych informacji i uwzględnienie potrzeb klienta</div></li>
+			<img src="images/arrowr.png" class="arrow" alt="">
+			<li class="ax"><img src="images/2.png" class="lang2" alt=""><div class="tt">Projekt</div><div class="infot">Prezentacja wstępnego projektu strony i skorygowanie go według uwag klienta</div></li>
+			<img src="images/arrowr.png" class="arrow" alt="">
+			<li class="ax"><img src="images/3.png" class="lang2" alt=""><div class="tt">Wdrożenie</div><div class="infot">Finalizacja zlecenia, zamieszczenie strony w internecie z możliwością trzech bezpłatnych poprawek</div></li>
 		</div>
+		
+		<div class="part4">
+		<div class="title">Kącik muzyczny</div>
+		<div class="b">
+		<div class="opis">Niczym w popularnym teleturnieju telewizji polskiej, usiądź sobie wygodnie i wysłuchaj mojej subiektywnej playlisty. <span class="special">Jeśli masz na to ochotę i czas.</span></div>
+		<div class="spotify"><iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Athematiss%3Aplaylist%3A43owDb0ClaraIZK1DtACSE" width="300" height="300" frameborder="0" allowtransparency="true"></iframe></div></div>
+		
+		
+		</div>
+		
+		<div id="borderspecial"></div>
+			<div id="footerspecial">
+				Copyright &copy; 2017 <b>MateuszKrawczyk.pl</b> wszelkie prawa zastrzeżone.
+			</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="viewportchecker.min.js"></script>
+		<script>
+		
+			$(".scrolldown").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#try").offset().top
+			}, 600); return false;
+			});
+		
+			
+		</script>
+		<script>
+		
+			$(document).ready(function(e) {
+			var a = 400,
+			t = 1000,
+			l = 1000,
+			s = e(".scrollup");
+			e(window).scroll(function() {
+			e(this).scrollTop() > a ? s.addClass("scrool-is-visible") : s.removeClass("scrool-is-visible scrool-fade-out"), e(this).scrollTop() > t && s.addClass("scrool-fade-out")
+			}), s.on("click", function(a) {
+			a.preventDefault(), e("body,html").animate({
+			scrollTop: 0
+			}, l)
+			})
+			})
+		
+			$(window).scroll(function()
+			{
+				if($(this).scrollTop() > 1000) $('.scrollup').fadeIn(400);
+				else $('.scrollup').fadeOut(400);
+		
+			});
+	</script>
+	
+	<script>
+			$(document).ready(function(){
+			$('.arrow').viewportChecker({
+			classToAdd: 'animated fadeInLeft',
+			offset: 400,
+			repeat: false,
+			callbackFunction: function(elem, action){}
+			});
+			});
+	</script>
+
+
+	<script>
+			$(document).ready(function(){
+			$('.title').viewportChecker({
+			classToAdd: 'animated slideInLeft',
+			offset: 0,
+			repeat: false,
+			callbackFunction: function(elem, action){}
+			});
+			});
+	</script>
 	</body>
 	
-			<div id="border"></div>
-			<footer>
-				Copyright &copy; 2017 <b>MateuszKrawczyk.pl</b> wszelkie prawa zastrzeżone.
-			</footer>
+			
 
 </html>
