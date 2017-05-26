@@ -10,11 +10,7 @@
 		<meta name="keywords" content="Strona, Mateusz, Krawczyk, Usługi, informatyczne, rowerowe" >
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" href="images/logo.png" >
-		<script type="text/javascript">
-			function showDiv(toggle){
-			document.getElementById(toggle).style.display = 'block';
-			}
-		</script><style type="text/css">
+		<style type="text/css">
 		.dur4 {
 		width:105px;
 		margin-right: 0px;
@@ -39,37 +35,39 @@
 		<div id="longer">
 		<div id="main">
 			<div id="menu">
-				<div class="nav1"><div class="dur1"><a href="index.html">
+				<nav>
+					<ul>
+						<li class="nav1"><div class="dur1"><a href="index.html">
 					KONTAKT
-				</a></div></div>
-				<div class="nav2"><div class="dur2"><a href="omnie.html">
+							</a></div></li>
+						<li class="nav2"><div class="dur2"><a href="omnie.html">
 					<span style="letter-spacing: 9px">O</span>MNIE
-				</a></div></div>
-				<div class="nav3"><a href="index.html">
-					<img src="images/logo.svg" class="logo" alt="Logo Korony"/>
-				</a></div>
-				<div class="nav4"><div class="dur3"><a href="projekty.html">
+							</a></div></li>
+						<li class="nav3"><a href="index.html">
+							<img src="images/logo.svg" class="logo" alt="Obrazek Korony"/>
+							</a></li>
+						<li class="nav4"><div class="dur3"><a href="projekty.html">
 					PROJEKTY
-				</a></div></div>
-				<div class="nav5"><div class="dur4"><a href="blog.html">
+							</a></div></li>
+						<li class="nav5"><div class="dur4"><a href="blog.html">
 					BLOG
-				</a></div></div>
+							</a></div></li>
+					</ul>
+				</nav>	
 			
 			</div>
-			
-		<div style="clear:both"></div>
 				
 		</div>
 		</div>
 		
-		
+		<a href="#html" class="scrollup"></a>
 		<div id="all">
 		<div class="triangle1"></div>
 		<div id="szablonback">
 		<div class="header">
 		<h1>Waran z Komodo - Gatunek zagrożony</h1>
 		</div><div class="nawiasy"></div>
-		<div class="szablontekst">
+		<section>
 		<p> Gatunek gada z rodziny waranów nazywany smokiem z Komodo. To największa współcześnie żyjąca jaszczurka. Odkryta w 1910 roku. Aby ją chronić, założono w 1980 r. Park Narodowy Komodo.
 		Aktywny w dzień, noc spędza w wygrzebanych przez siebie norach. Poluje z zasadzki, do upatrzonej zdobyczy zakrada się od tyłu. Atakując mniejszą zdobycz, może rzucić się wprost do jej szyi. </p>
 
@@ -89,14 +87,14 @@ Te wyrośnięte jaszczurki zamieszkują kilka wysp Archipelagu Sundajskiego nale
 	<div class="szablonbottoom">
 	
 	<div class="leftone"><h2>Opublikowano: 06.05.2017</h2></div><div class="rightone"><h2>Autor: Mateusz Krawczyk</h2></div>
-	<div style="clear:both"></div>
+
 	
 	<h3>
 	Zobacz także:</h3>
 	<div class="boxszablon1"><img class="takze" src="images/rower.jpg" alt="Rowery w mieście"/><div class="overlay1"><div class="textszablon">Kiedy rozpoczyna się sezon rowerowy?</div></div></div>
 	<div class="boxszablon2"><img class="takze" src="images/kokos.jpg" alt="Mleko kokosowe"/><div class="overlay2"><div class="textszablon">Jak zrobić mleko kokosowe w domu?</div></div></div>
 	</div>
-	</div>
+	</section>
 	<div id="Comment_wrap">
 		<div id="disqus_thread"></div>
 			<script>
@@ -124,11 +122,36 @@ Te wyrośnięte jaszczurki zamieszkują kilka wysp Archipelagu Sundajskiego nale
 		</div>
 		<div class="triangle2"></div>
 		</div>
-		<div style="clear:both"></div>
 		<div id="borderspecial"></div>
 			<div id="footerspecial">
 				Copyright &copy; 2017 <b>MateuszKrawczyk.pl</b> wszelkie prawa zastrzeżone.
 			</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script>
+		
+			$(document).ready(function(e) {
+			var a = 400,
+			t = 1000,
+			l = 1000,
+			s = e(".scrollup");
+			e(window).scroll(function() {
+			e(this).scrollTop() > a ? s.addClass("scrool-is-visible") : s.removeClass("scrool-is-visible scrool-fade-out"), e(this).scrollTop() > t && s.addClass("scrool-fade-out")
+			}), s.on("click", function(a) {
+			a.preventDefault(), e("body,html").animate({
+			scrollTop: 0
+			}, l)
+			})
+			})
+		
+			$(window).scroll(function()
+			{
+				if($(this).scrollTop() > 2000) $('.scrollup').fadeIn(400);
+				else $('.scrollup').fadeOut(400);
+		
+			});
+	</script>
+	
 	</body>
 	
 			
