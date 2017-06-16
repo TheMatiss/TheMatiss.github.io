@@ -163,6 +163,9 @@ a:focus{
 		min-width: 75px;
 	}
 
+	.navm2{
+		display:none;
+	}
 	
 	nav{
 		position:relative;
@@ -1368,6 +1371,10 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		margin-right:5px;
 	}
 	
+	.navm2{
+		display:none;
+	}
+	
 	nav{
 		position:relative;
 		list-style:none;
@@ -2449,6 +2456,19 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 @media (max-width: 600px) {
 	
 	
+	html
+	{
+	background: url(images/bg1.svg) no-repeat center center fixed;
+	background-size:cover;
+	min-height:100%;
+	background-color:rgba(58,131,168,0.6);
+	}
+
+	body {
+	margin: 0;
+	height: 100%;
+	}
+	
 	#longer {
 		height: 40px;
 		background-color: none;
@@ -2512,10 +2532,14 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		text-align:center;
 	}
 	
+	.navm1{
+		display:none;
+	}
+	
 	.list{
 		display:inline;
 		position:absolute;
-		z-index:200;
+		z-index:500;
 		left:0;
 		width:38px;
 		height:38px;
@@ -2545,6 +2569,17 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		right:50%;
 		transform: translateX(50%);
 		background-color: #3A83A8;
+	}
+	
+	.navm{
+		position:relative;
+		height: 40px;
+		padding:15px 0px 5px 0px;
+		text-align: center;
+		float:left;
+		min-width:100%;
+		background-color: #3A83A8;
+		margin-left:0;
 	}
 	
 	
@@ -2637,90 +2672,11 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		margin-top:0;
 		z-index:1000;
 		margin-bottom:0;
-		border: solid rgba(0,0,0,1);
-		border-width:0px 0px 0px 1px;
-	}
-	
-	.dur1{
-		width:0px;
-		height:40px;
-		transition-property: width, margin-right;
-		transition-duration: 500ms;
-		border-bottom: solid 0.5px;
-		margin-right: 0px;
-		float:left;
-		
 	}
 
-
-	.dur1:hover {
-		width:175px;
-		margin-right: 0px;
-		cursor:pointer;
-		opacity: 0.8;
+	.navm2{
+		display:inline;
 	}
-
-
-	.dur2{
-		width:0px;
-		height:40px;
-		transition-property: width, margin-right;
-		transition-duration: 500ms;
-		border-bottom: solid 0.5px;
-		margin-right: 0px;
-		float:left;
-		
-	}
-
-
-	.dur2:hover {
-		width:140px;
-		margin-right: 0px;
-		cursor:pointer;
-		opacity: 0.8;
-	}
-
-	.dur3{
-		width:0px;
-		height:40px;
-		transition-property: width, margin-right;
-		transition-duration: 500ms;
-		border-bottom: solid 0.5px;
-		margin-right:0px;
-		float:left;
-		z-index:500;
-		
-	}
-
-
-	.dur3:hover {
-		width:180px;
-		margin-right: 0px;
-		cursor:pointer;
-		opacity: 0.8;
-	}
-
-
-	.dur4{
-		width:0px;
-		height:40px;
-		transition-property: width, margin-right;
-		transition-duration: 500ms;
-		border-bottom: solid 0.5px;
-		margin-right: 0px;
-		float:left;
-		
-	}
-
-
-	.dur4:hover {
-		width:105px;
-		margin-right: 0px;
-		cursor:pointer;
-		opacity: 0.8;
-	}
-
-
 		
 	.logo {
 		height: 65px;
@@ -3006,6 +2962,15 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		margin-top:200px;
 	}
 	
+	.infob{
+		top:100px;
+		left:0;
+		right:60%;
+		margin-top:0;
+		transform: none;
+		width:300px;
+	}
+	
 	/* o mnie */	
 
 
@@ -3016,7 +2981,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		width:200px;
 		position:relative;
 		float:left;
-		right:47%;
+		right:50%;
 		transform: translateX(100%);
 		margin:10px;
 		display:block;
@@ -3032,16 +2997,16 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		letter-spacing: 2px;
 		font-size: 28px;
 		position: relative;
-		width:310px;
+		width:300px;
 		height:100%;
 		float:left;
-		padding:20px;
+		padding:15px;
 		margin-top:5px;
 	}
 	
 	
 	.tlo {
-		width: 350px;
+		width: 330px;
 		height:100%;
 		background-color: rgba(58,131,168,0.8);
 		float:left;
@@ -3056,12 +3021,12 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	}
 	
 	.part1 {
-		width:350px;
+		width:330px;
 		padding:10px;
 		position:relative;
 		margin:auto;
 		margin-top:170px;
-		height:600px;
+		height:635px;
 	}
 	
 	/* 2 */
@@ -3145,7 +3110,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	
 	.ax {
 		float:left;
-		margin:35px 83px 20px 83px;
+		margin:35px 65px 20px 65px;
 		text-align: center;
 		font-family: 'Open Sans Condensed', sans-serif;
 		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
@@ -3222,6 +3187,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	
 	.spotify {
 		margin:auto;
+		margin-left:15px;
 		width:300px;
 		height:300px;
 		position:relative;
@@ -3240,7 +3206,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		font-size: 24px;
 		position: relative;
 		text-align:center;
-		width:330px;
+		width:340px;
 		float:left;
 		display:block;
 		margin-top: 65px;
