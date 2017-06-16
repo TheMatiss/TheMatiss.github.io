@@ -2811,6 +2811,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		right:50%;
 		transform: translateX(50%);
 		position: absolute;
+		margin-bottom:70px;
 	}
 	
 	#tekst {
@@ -2843,7 +2844,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		min-height:100%;
 		top:50%;
 		right:50%;
-		margin-top:-50px;
+		margin-top:-40px;
 		transform: translateX(50%);
 		position: absolute;
 		}
@@ -2852,7 +2853,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		width:300px;
 		height:480px;
 		background-color: rgba(58,131,168,0.6);
-		margin:40px 0px 20px 0px;
+		margin:30px 0px 30px 0px;
 		float:left;
 		
 	}
@@ -2964,7 +2965,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	
 	.infob{
 		top:100px;
-		left:0;
+		left:10px;
 		right:60%;
 		margin-top:0;
 		transform: none;
@@ -3026,7 +3027,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		position:relative;
 		margin:auto;
 		margin-top:170px;
-		height:635px;
+		height:645px;
 	}
 	
 	/* 2 */
