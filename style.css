@@ -1590,7 +1590,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	
 /* Footer */
 
-	#border {
+	footer:before {
 		position:fixed;
 		margin-right: auto;
 		margin-left:auto;
