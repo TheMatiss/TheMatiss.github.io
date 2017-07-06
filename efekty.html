@@ -37,6 +37,8 @@
 		
 		<div id="longer">
 		<main id="main">
+		<div class="lista"><img src="images/menu.png" class="list" alt=""></div>
+		<div class="evry">
 			<div id="menu">
 				<nav class="navm1">
 					<ul>
@@ -75,7 +77,7 @@
 							</a></li>
 					</ul>
 			</nav>	
-			</div>
+			</div></div>
 				
 		</main>
 		</div>
@@ -169,6 +171,14 @@ Ludzie kształtują się, rozwijają, rosną. Częściowo tworzeni przez wyobra�
 		
 			});
 	</script>
+		<script type="text/javascript">
+			
+				$(document).ready(function(){
+				$(".lista").click(function(){
+					$(".evry").toggle(240);
+				});
+			});
+		</script>
 	
 	<script type="text/javascript">
 			$(document).ready(function(){
