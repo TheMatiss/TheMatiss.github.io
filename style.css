@@ -933,8 +933,8 @@ a:focus{
 		margin-left:auto;
 		margin-top:42px;
 		max-width: 0;
-		height: 0;
 		border-bottom: 56px solid rgba(58,131,168,1);
+		height: 0;
 		border-left: 854px solid transparent;
 	}
 	.triangle2 {
@@ -3310,4 +3310,22 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		float:left;
 		position:relative;
 	}
+}
+
+@media (max-width:500px) {
+	.triangle1{
+		display:none;
+	}
+	
+	.triangle2{
+		display:none;
+	}
+	.artykulimg{
+		display:none;
+	}
+	
+	.takze{
+		margin-left:-60px;
+	}
+	
 }
