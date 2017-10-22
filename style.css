@@ -1034,8 +1034,8 @@ a:focus{
 	.artykulimg {
 		display:block;
 		object-fit: cover;
-		max-width: 560px;
-		max-height:325px;
+		width:80%;
+		height:auto;
 		vertical-align:middle;
 		padding: 4.9px;
 		border: 1.4px solid #dfdfdf;
@@ -3320,9 +3320,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	.triangle2{
 		display:none;
 	}
-	.artykulimg{
-		display:none;
-	}
+
 	
 	.takze {
 		
@@ -3350,4 +3348,88 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	h1{
 	top:54%;
 }
+}
+
+@media (max-width:920px) {
+	.triangle1{
+		display:none;
+	}
+	
+	.triangle2{
+		display:none;
+	}
+	
+	#szablonback{
+		margin-top:200px;
+		margin-bottom:100px;
+	}
+	
+	.navm1{
+		display:none;
+	}
+	
+	.list{
+		display:inline;
+		position:absolute;
+		z-index:500;
+		left:0;
+		width:38px;
+		height:38px;
+		top:0;
+		background:url("images/up.png") no-repeat 0px 0px;
+		
+	}
+	
+	.evry{
+		display:none;
+		
+		
+	}
+	
+
+	.navm{
+		position:relative;
+		height: 40px;
+		padding:15px 0px 5px 0px;
+		text-align: center;
+		float:left;
+		min-width:100%;
+		background-color: #3A83A8;
+		margin-left:0;
+	}
+	
+	
+	
+	nav{
+		position:relative;
+		list-style:none;
+		padding:0;
+		margin-top:0;
+		margin-bottom:0;
+		z-index:1000;
+	}
+	
+	ul{
+		padding:0;
+		margin-top:0;
+		z-index:1000;
+		margin-bottom:0;
+	}
+	
+	ul > li{
+		list-style:none;
+		float:left;
+		font-size:25px;
+		text-align:center;
+		height: 40px;
+		padding:0;
+		margin-top:0;
+		z-index:1000;
+		margin-bottom:0;
+	}
+
+	.navm2{
+		display:inline;
+	}
+	
 }
