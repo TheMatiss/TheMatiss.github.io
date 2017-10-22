@@ -3324,15 +3324,22 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		display:none;
 	}
 	
-	.takze{
-		margin-left:-70px;
+	.takze {
+		
+		width: 274.4px;
+		height:210px;
+		
 	}
 	
-	.overlay1{
-		margin-left:-70px;
+	.boxszablon1 {
+		width: 280px;
+		
+		
 	}
 	
-	.overlay2{
-		margin-left:-70px;
+	.boxszablon2 {
+		width: 280px;
+		
+		
 	}
 }
