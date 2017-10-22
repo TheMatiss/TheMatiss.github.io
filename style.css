@@ -912,7 +912,7 @@ a:focus{
 	#szablonback{
 		margin-left:auto;
 		margin-right:auto;
-		width: 840px;
+		max-width: 840px;
 		background-color:rgba(255,255,255,0.88);
 		border: 7px solid rgba(58,131,168,1);
 		-webkit-box-shadow: inset -1px -1px 144px -44px rgba(0,0,0,0.75);
@@ -921,7 +921,7 @@ a:focus{
 	}
 	
 	#Comment_wrap{
-		width:700px;
+		max-width:700px;
 		margin-left:auto;
 		margin-right:auto;
 		padding:40px;
@@ -932,7 +932,7 @@ a:focus{
 		margin-right:auto;
 		margin-left:auto;
 		margin-top:42px;
-		width: 0;
+		max-width: 0;
 		height: 0;
 		border-bottom: 56px solid rgba(58,131,168,1);
 		border-left: 854px solid transparent;
@@ -951,7 +951,7 @@ a:focus{
 		background:url(images/waran.jpg)no-repeat center ;
 		background-size:cover;
 		height:245px;
-		width:840px;
+		max-width:840px;
 		position:relative;
 	}
 	
@@ -968,7 +968,7 @@ a:focus{
 		background:url(images/y.jpg)no-repeat center ;
 		background-size:cover;
 		height:245px;
-		width:840px;
+		max-width:840px;
 	}
 	
 	
@@ -986,7 +986,7 @@ a:focus{
 		background:url(images/z.jpg)no-repeat center ;
 		background-size:cover;
 		height:245px;
-		width:840px;
+		max-width:840px;
 	}
 	
 	
@@ -1000,7 +1000,7 @@ a:focus{
 	}
 	
 	h1{
-		width:840px;
+		max-width:840px;
 		margin-top:0;
 		margin-bottom:0;
 		text-align: center;
@@ -1034,8 +1034,8 @@ a:focus{
 	.artykulimg {
 		display:block;
 		object-fit: cover;
-		 width: 560px;
-		height:325px;
+		max-width: 560px;
+		max-height:325px;
 		vertical-align:middle;
 		padding: 4.9px;
 		border: 1.4px solid #dfdfdf;
@@ -1048,7 +1048,7 @@ a:focus{
 	.nawiasy {
 		background: url(images/bottom.png) repeat-x bottom left;
 		overflow:hidden;
-		width:840px;
+		max-width:840px;
 		height:6.3px;
 	}
 	
@@ -1101,7 +1101,7 @@ a:focus{
 	.takze {
 		display:block;
 		object-fit: cover;
-		width: 344.4px;
+		max-width: 344.4px;
 		height:210px;
 		vertical-align:middle;
 		margin-left:auto;
@@ -1112,8 +1112,8 @@ a:focus{
 	}
 	
 	.boxszablon1 {
-		width: 350px;
-		height:210px;
+		max-width: 350px;
+		max-height:210px;
 		float:left;
 		margin-left:auto;
 		margin-right:auto;
@@ -1122,8 +1122,8 @@ a:focus{
 	}
 	
 	.boxszablon2 {
-		width: 350px;
-		height:210px;
+		max-width: 350px;
+		max-height:210px;
 		float:left;
 		margin-left:auto;
 		margin-right:auto;
@@ -2099,7 +2099,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 
 	
 	#Comment_wrap{
-		width:1000px;
+		max-width:1000px;
 		margin-left:auto;
 		margin-right:auto;
 		padding:50px;
@@ -2122,7 +2122,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	#szablonback{
 		margin-left:auto;
 		margin-right:auto;
-		width: 1200px;
+		max-width: 1200px;
 		background-color:rgba(255,255,255,0.88);
 		border: 10px solid rgba(58,131,168,1);
 		-webkit-box-shadow: inset -1px -1px 144px -44px rgba(0,0,0,0.75);
@@ -2155,7 +2155,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		background:url(images/waran.jpg)no-repeat center ;
 		background-size:cover;
 		height:350px;
-		width:1200px;
+		max-width:1200px;
 	}
 	
 	
@@ -2174,7 +2174,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		background:url(images/y.jpg)no-repeat center ;
 		background-size:cover;
 		height:350px;
-		width:1200px;
+		max-width:1200px;
 	}
 	
 	
@@ -2193,7 +2193,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		background:url(images/z.jpg)no-repeat center ;
 		background-size:cover;
 		height:350px;
-		width:1200px;
+		max-width:1200px;
 	}
 	
 	
@@ -2208,7 +2208,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 
 	
 	h1{
-		width:1200px;
+		max-width:1200px;
 		margin-top:0;
 		margin-bottom:0;
 		text-align: center;
@@ -2244,8 +2244,8 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	.artykulimg {
 		display:block;
 		object-fit: cover;
-		width: 800px;
-		height:450px;
+		max-width: 800px;
+		max-height:450px;
 		vertical-align:middle;
 		padding: 7px;
 		border: 2px solid #dfdfdf;
@@ -2258,7 +2258,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	.nawiasy {
 		background: url(images/bottom.png) repeat-x bottom left;
 		overflow:hidden;
-		width:1200px;
+		max-width:1200px;
 		height:9px;
 	}
 	
@@ -2304,7 +2304,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	.takze {
 		display:block;
 		object-fit: cover;
-		width: 492px;
+		max-width: 492px;
 		height:300px;
 		vertical-align:middle;
 		margin-left:auto;
@@ -2315,8 +2315,8 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	}
 	
 	.boxszablon1 {
-		width: 500px;
-		height:300px;
+		max-width: 500px;
+		max-height:300px;
 		float:left;
 		margin-left:auto;
 		margin-right:auto;
@@ -2325,8 +2325,8 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	}
 	
 	.boxszablon2 {
-		width: 500px;
-		height:300px;
+		max-width: 500px;
+		max-height:300px;
 		float:left;
 		margin-left:auto;
 		margin-right:auto;
@@ -2981,10 +2981,35 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		right:60%;
 		margin-top:0;
 		transform: none;
-		width:300px;
+		max-width:300px;
+	}
+	.infott{
+		width:250px;
+		
 	}
 	
-	/* o mnie */	
+	.infoi{
+		position:absolute;
+		top:3px;
+		right:3px;
+		width:40px;
+		height:48px;
+		vertical-align:middle;
+		cursor:pointer;
+	}
+	
+	.infots{
+		margin:auto;
+		text-align: center;
+		font-family: 'Open Sans Condensed', sans-serif;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+		font-size: 14px;
+		position: absolute;
+		bottom:3px;
+		margin-left:1%;
+	}
+	
+/* o mnie */	
 
 
 		/* 1 */
