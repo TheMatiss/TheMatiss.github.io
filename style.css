@@ -3346,4 +3346,8 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		-ms-transform: translate(-50%);
 		margin-bottom:50px;
 	}
+	
+	h1{
+	top:54%;
+}
 }
