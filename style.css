@@ -3333,13 +3333,17 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 	
 	.boxszablon1 {
 		width: 280px;
-		
+		left: 50%;
+		transform: translate(-50%);
+		-ms-transform: translate(-50%);
 		
 	}
 	
 	.boxszablon2 {
 		width: 280px;
-		
-		
+		left: 50%;
+		transform: translate(-50%);
+		-ms-transform: translate(-50%);
+		margin-bottom:50px;
 	}
 }
