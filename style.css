@@ -231,6 +231,29 @@ a:focus{
 		cursor:pointer;
 		opacity: 0.8;
 	}
+	
+	.dur2en{
+		width:0px;
+		height:40px;
+		transition-property: width, margin-right;
+		transition-duration: 500ms;
+		border-bottom: solid 0.5px;
+		margin-right: 135px;
+		float:left;
+		
+	}
+
+
+	.dur2en:hover {
+		width:135px;
+		margin-right: 0px;
+		cursor:pointer;
+		opacity: 0.8;
+	}
+	
+
+	
+	
 
 	.dur3{
 		width:0px;
@@ -1506,6 +1529,25 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		
 	}
 
+	.dur2en{
+		width:0px;
+		height:50px;
+		transition-property: width, margin-right;
+		transition-duration: 500ms;
+		border-bottom: solid 1px;
+		margin-right: 169px;
+		float:left;
+		
+	}
+
+
+	.dur2en:hover {
+		width:169px;
+		margin-right: 0px;
+		cursor:pointer;
+		
+	}
+	
 	.dur3{
 		width:0px;
 		height:50px;
