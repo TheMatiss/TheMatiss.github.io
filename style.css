@@ -465,7 +465,15 @@ a:focus{
 		clear: both;
 	}
 	
-	
+	.pfooter{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		line-height: 1.4em;
+		vertical-align: baseline;
+		text-decoration: none;
+		outline: 0;
+	}
 	
 
 /* Projekty */
@@ -740,60 +748,7 @@ a:focus{
 	}
 	
 	
-	/* 4 */
 	
-	.part4 {
-		width:100%;
-		height:450px;
-		background-color: rgba(58,131,168,0.8);
-		position:relative;
-		margin:auto;
-		float:left;
-		padding-top:40px;
-		padding-bottom:40px;
-		margin-bottom:30vh;
-	
-	}
-	
-	.spotify {
-		margin:auto;
-		width:300px;
-		height:300px;
-		position:relative;
-		float:left;
-		display:block;
-		margin-top:10px;
-		padding:6px;
-		border: 4px solid rgba(58,131,168,1);
-	}
-	
-	.opis {
-		margin: auto;
-		font-family: 'Open Sans Condensed', sans-serif;
-		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-		letter-spacing: 2px;
-		font-size: 28px;
-		position: relative;
-		text-align:center;
-		width:450px;
-		float:left;
-		display:block;
-		margin-top: 65px;
-		padding: 0px 50px 0px 50px;
-	}
-	
-	.b {
-		margin:auto;
-		width:870px;
-		display:block;
-		
-	}
-	
-	.special{
-		font-style:italic;
-		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-		
-	}
 	
 /* Blog */
 
@@ -1961,60 +1916,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		padding-top:10vh;
 	}
 	
-	/* 4 */
 	
-	.part4 {
-		width:100%;
-		height:450px;
-		background-color: rgba(58,131,168,0.8);
-		position:relative;
-		margin:auto;
-		float:left;
-		padding-top:50px;
-		padding-bottom:50px;
-		margin-bottom:30vh;
-	
-	}
-	
-	.spotify {
-		margin:auto;
-		width:300px;
-		height:300px;
-		position:relative;
-		float:left;
-		display:block;
-		margin-top:10px;
-		padding:6px;
-		border: 4px solid rgba(58,131,168,1);
-	}
-	
-	.opis {
-		margin: auto;
-		font-family: 'Open Sans Condensed', sans-serif;
-		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-		letter-spacing: 2px;
-		font-size: 28px;
-		position: relative;
-		text-align:center;
-		width:450px;
-		float:left;
-		display:block;
-		margin-top: 65px;
-		padding: 0px 50px 0px 50px;
-	}
-	
-	.b {
-		margin:auto;
-		width:870px;
-		display:block;
-		
-	}
-	
-	.special{
-		font-style:italic;
-		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-		
-	}
 
 /* Blog */
 
@@ -3250,61 +3152,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		padding-top:20vh;
 	}
 	
-	/* 4 */
 	
-	.part4 {
-		width:100%;
-		height:100%;
-		background-color: rgba(58,131,168,0.8);
-		position:relative;
-		margin:auto;
-		float:left;
-		padding-top:50px;
-		padding-bottom:50px;
-		margin-bottom:30vh;
-	
-	}
-	
-	.spotify {
-		margin:auto;
-		margin-left:15px;
-		width:300px;
-		height:300px;
-		position:relative;
-		float:left;
-		display:block;
-		margin-top:10px;
-		padding:6px;
-		border: 4px solid rgba(58,131,168,1);
-	}
-	
-	.opis {
-		margin: auto;
-		font-family: 'Open Sans Condensed', sans-serif;
-		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-		letter-spacing: 2px;
-		font-size: 24px;
-		position: relative;
-		text-align:center;
-		width:340px;
-		float:left;
-		display:block;
-		margin-top: 65px;
-		padding: 0px 5px 0px 5px;
-	}
-	
-	.b {
-		margin:auto;
-		width:350px;
-		display:block;
-		
-	}
-	
-	.special{
-		font-style:italic;
-		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-		
-	}
 }
 	
 	
@@ -3889,61 +3737,7 @@ box-shadow: -2px 0px 300px 10px rgba(0,0,0,0.97);
 		padding-top:20vh;
 	}
 	
-	/* 4 */
 	
-	.part4 {
-		width:100%;
-		height:100%;
-		background-color: rgba(58,131,168,0.8);
-		position:relative;
-		margin:auto;
-		float:left;
-		padding-top:50px;
-		padding-bottom:50px;
-		margin-bottom:30vh;
-	
-	}
-	
-	.spotify {
-		margin:auto;
-		margin-left:15px;
-		width:300px;
-		height:300px;
-		position:relative;
-		float:left;
-		display:block;
-		margin-top:10px;
-		padding:6px;
-		border: 4px solid rgba(58,131,168,1);
-	}
-	
-	.opis {
-		margin: auto;
-		font-family: 'Open Sans Condensed', sans-serif;
-		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-		letter-spacing: 2px;
-		font-size: 24px;
-		position: relative;
-		text-align:center;
-		width:340px;
-		float:left;
-		display:block;
-		margin-top: 65px;
-		padding: 0px 5px 0px 5px;
-	}
-	
-	.b {
-		margin:auto;
-		width:350px;
-		display:block;
-		
-	}
-	
-	.special{
-		font-style:italic;
-		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-		
-	}
 	
 	
 }
